@@ -13,17 +13,16 @@ estos
 ## y 3 columnas.... y preguntar por el dato de la matriz en el 
 ## renglon 3 y columna 3
 1)
-e<-11:31
+e<-11:30
 dim(e)<-c(5,4)
 View(e)
-rownames(e)<-c("Toluca","Pachuca","Guadalajara","Monterrey")
-colnames(e)<-c("escuela1","escuela2","escuela3","escuela4","escuela5")
+colnames(e)<-c("Toluca","Pachuca","Guadalajara","Monterrey")
+rownames(e)<-c("escuela1","escuela2","escuela3","escuela4","escuela5")
 e
-e["Toluca","escuela3"
-e["Guadalajara","escuela5"]
-e["Pachuca","escuela1"]
-
-
-2)
-h<- matrix(1:18,nrow=6,ncol=3)
+e["escuela3","Toluca"]
+  e["escuela5","Guadalajara"]
+  e["escuela1","Pachuca"]
+  
+  2)
+h<- matrix(3:20,nrow=6,ncol=3)
 h[3,3]
